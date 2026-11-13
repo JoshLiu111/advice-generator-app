@@ -36,8 +36,8 @@ I also added:
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](TODO)
-- Live Site URL: [TODO](TODO)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/vanilla-javascript---fetch-api-with-loading-error-and-cooldown-states-jQFV6QP29D)
+- Live Site URL: [advice-generator-app-one-flax.vercel.app](https://advice-generator-app-one-flax.vercel.app/)
 
 ## My process
 
