@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <!-- Announced to screen readers whenever its content changes -->
+    <div class="card__content" aria-live="polite" aria-atomic="true">
+      <h1 class="card__label">Advice #<span id="advice-id"></span></h1>
+      <blockquote class="card__quote">
+        <p id="advice-text">Loading advice…</p>
+      </blockquote>
+    </div>
+
+    <p class="card__error" id="advice-error" role="alert" hidden></p>
+
+    <picture class="card__divider">
+      <source media="(min-width: 40em)" srcset="./images/pattern-divider-desktop.svg">
+      <img src="./images/pattern-divider-mobile.svg" alt="" width="295" height="16">
+    </picture>
+
+    <button class="dice-btn" id="dice-btn" type="button" aria-label="Get a new piece of advice">
+      <img src="./images/icon-dice.svg" alt="" width="24" height="24">
+    </button>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Josh</a>.
+  </footer>
+</body>
+</html>
