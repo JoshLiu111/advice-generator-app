@@ -3,7 +3,7 @@ const adviceText = document.getElementById("advice-text");
 const adviceError = document.getElementById("advice-error");
 const adviceId = document.getElementById("advice-id");
 const API_URL = "https://api.adviceslip.com/advice";
-const COOLDOWN_MS = 2000; // API caches adcice for 2s
+const COOLDOWN_MS = 2000; // API caches advice for 2s
 
 async function getAdvice(url) {
   diceBtn.disabled = true;
